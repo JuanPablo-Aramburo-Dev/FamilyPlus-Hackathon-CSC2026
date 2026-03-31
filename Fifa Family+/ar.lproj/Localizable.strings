@@ -1,0 +1,392 @@
+/* =========================
+   حول التطبيق / ABOUT
+   ========================= */
+about.title = "حولنا";
+about.mission.title = "مهمتنا";
+about.mission.body = "في Family+، نؤمن بأن كرة القدم يجب أن تكون تجربة آمنة وسهلة وممتعة لجميع العائلات. هدفنا هو ربط المشجعين بمساحات عائلية وخدمات شاملة وتجارب فريدة داخل وخارج ملاعب كأس العالم 2026.";
+about.history.title = "قصتنا";
+about.history.body = "وُلدت Family+ كمشروع جامعي في جامعة CETYS، بدافع الرغبة في إنشاء تطبيق يعزز الشمول والراحة للعائلات في الأحداث الرياضية الكبرى.";
+about.team.title = "فريقنا";
+about.team.body = "نحن فريق متعدد التخصصات من الطلاب الشغوفين بالتكنولوجيا والتصميم والرياضة. نجمع مهاراتنا لتطوير أداة تربط العائلات من خلال كرة القدم.";
+about.backToHome = "العودة إلى الصفحة الرئيسية";
+
+/* =========================
+   إمكانية الوصول
+   ========================= */
+a11y.back = "رجوع";
+a11y.backToHome.hint = "العودة إلى الشاشة الرئيسية.";
+
+/* =========================
+   الخدمات (أسماء - BBVA)
+   ========================= */
+svc.bbva.parqueLaPastora.name = "حديقة لا باستورا";
+svc.bbva.zooLaPastora.name = "حديقة حيوانات لا باستورا";
+svc.bbva.christusSur.name = "مستشفى كريستوس موغيرزا الجنوبي";
+svc.bbva.clinicaEmergencias.name = "عيادة الطوارئ لا باستورا";
+svc.bbva.fahorro.name = "صيدليات ديل أهورو لا باستورا";
+svc.bbva.farmaciaGdl.name = "صيدلية غوادالاخارا إيلوي كافازوس";
+svc.bbva.heb.name = "سوبرماركت H-E-B إيلوي كافازوس";
+svc.bbva.oxxo.name = "متجر OXXO لا باستورا";
+svc.bbva.cafeLocal.name = "مقهى لا باستورا المحلي";
+svc.bbva.starbucks.name = "ستاربكس إيلوي كافازوس";
+svc.bbva.laspampas.name = "مطعم لاس بامباس للشواء";
+svc.bbva.parkingOficial.name = "موقف السيارات الرسمي BBVA";
+svc.bbva.parkingNorte.name = "موقف لا باستورا الشمالي";
+
+/* =========================
+   الخدمات (الوصف)
+   ========================= */
+svc.bbva.parqueLaPastora.desc = "منطقة خضراء واسعة بجانب الملعب مع مناطق جلوس وألعاب للأطفال.";
+svc.bbva.zooLaPastora.desc = "مكان عائلي يضم حيوانات ومناطق خضراء ومناطق للنزهات.";
+svc.bbva.christusSur.desc = "مركز طبي يحتوي على قسم للأطفال والطوارئ وصيدلية داخلية.";
+svc.bbva.clinicaEmergencias.desc = "عيادة قريبة من الملعب مخصصة للإسعافات الأولية والطوارئ البسيطة.";
+svc.bbva.fahorro.desc = "أدوية وحفاضات ومنتجات نظافة للأطفال.";
+svc.bbva.farmaciaGdl.desc = "صيدلية تعمل 24 ساعة بخدمة السيارات ومنتجات الأطفال.";
+svc.bbva.heb.desc = "سوبرماركت يحتوي على قسم للأطفال وطعام جاهز ودورات مياه عائلية.";
+svc.bbva.oxxo.desc = "متجر صغير يحتوي على وجبات خفيفة وحفاضات ومشروبات.";
+svc.bbva.cafeLocal.desc = "مشروبات ووجبات خفيفة؛ يوجد طاولة تغيير في الحمام ومنطقة صغيرة للأطفال.";
+svc.bbva.starbucks.desc = "مقهى حديث بمنطقة عائلية ودورات مياه نظيفة.";
+svc.bbva.laspampas.desc = "مطعم عائلي يقدم قائمة للأطفال ومنطقة ألعاب.";
+svc.bbva.parkingOficial.desc = "موقف سيارات الملعب بمساحات واسعة ومرافق لذوي الاحتياجات الخاصة وحراسة خاصة.";
+svc.bbva.parkingNorte.desc = "موقف عام متصل مباشرة بالحديقة ومناطق العائلات.";
+
+/* =========================
+   المرافق (قابلة لإعادة الاستخدام)
+   ========================= */
+amenity.playground = "منطقة ألعاب";
+amenity.kidsPlay = "ألعاب للأطفال";
+amenity.shade = "ظل";
+amenity.publicRestrooms = "دورات مياه عامة";
+amenity.restrooms = "دورات مياه";
+amenity.parking = "موقف سيارات";
+amenity.emergency24h = "طوارئ 24 ساعة";
+amenity.pediatrics = "قسم الأطفال";
+amenity.pharmacy = "صيدلية";
+amenity.fastCare = "رعاية سريعة";
+amenity.attachedPharmacy = "صيدلية مجاورة";
+amenity.diapersAndFormula = "حفاضات وحليب أطفال";
+amenity.pediatricMeds = "أدوية أطفال";
+amenity.driveThruPharmacy = "صيدلية السيارات";
+amenity.babyProducts = "منتجات للأطفال";
+amenity.service24h = "خدمة 24 ساعة";
+amenity.highChairs = "كراسي مرتفعة";
+amenity.foodArea = "منطقة طعام";
+amenity.babySection = "قسم الأطفال";
+amenity.diapers = "حفاضات";
+amenity.snacks = "وجبات خفيفة";
+amenity.atm = "جهاز صراف آلي";
+amenity.wifi = "واي فاي";
+amenity.changingTable = "طاولة تغيير";
+amenity.acArea = "منطقة مكيفة";
+amenity.kidsMenu = "قائمة للأطفال";
+amenity.wideRestrooms = "دورات مياه واسعة";
+amenity.ramps = "منحدرات";
+amenity.security = "أمن";
+amenity.wideSpots = "مواقف واسعة";
+
+/* =========================
+   الأوقات (قابلة لإعادة الاستخدام)
+   ========================= */
+hours.open24 = "مفتوح 24 ساعة";
+hours.6_19 = "من 6:00 إلى 19:00";
+hours.9_17 = "من 9:00 إلى 17:00";
+hours.8_22 = "من 8:00 إلى 22:00";
+hours.8_23 = "من 8:00 إلى 23:00";
+hours.7_22 = "من 7:00 إلى 22:00";
+hours.7_21 = "من 7:00 إلى 21:00";
+hours.6_22 = "من 6:00 إلى 22:00";
+hours.12_23 = "من 12:00 إلى 23:00";
+hours.events = "خلال الفعاليات";
+
+/* =========================
+   الصفحة الرئيسية / الواجهة
+   ========================= */
+"family_title" = "فاميلي+";
+"discover_routes" = "اكتشف طرقًا جديدة";
+"no_one_left_behind" = "لا تترك أحدًا خلفك، لنجعل الجميع يصل.";
+"you_are_here" = "أنت هنا";
+"nearby_services" = "الخدمات\nالقريبة";
+"inclusive_tip" = "💡 نصيحة شاملة";
+"inclusive_tip_message" = "عند الوصول، حدد المداخل المجهزة، وغرف الرضاعة، ونقاط الإسعاف الأولي.";
+"view_nearby_services" = "عرض الخدمات القريبة";
+"user" = "المستخدم";
+"email_example" = "البريد@example.com";
+"home" = "الصفحة الرئيسية";
+"languages" = "اللغات";
+"about_us" = "معلومات عنا";
+"settings" = "الإعدادات";
+
+search_placeholder = "بحث...";
+chip_access = "المداخل";
+chip_nursing = "مناطق الرضاعة";
+chip_firstaid = "الإسعافات الأولية";
+
+languages.title = "اللغات";
+languages.info = "اختر اللغة الافتراضية للتطبيق والدروس والإشعارات";
+languages.section.site = "لغة التطبيق";
+
+language.es = "الإسبانية";
+language.en = "الإنجليزية";
+language.fr = "الفرنسية";
+language.ar = "العربية";
+language.pt = "البرتغالية";
+
+a11y.back = "رجوع";
+"languages.title" = "اللغات";
+"languages.info" = "اختر اللغة الافتراضية للتطبيق والدروس والإشعارات";
+"languages.section.siteLanguage" = "لغة التطبيق";
+"languages.row.hint" = "انقر مرتين لتغيير لغة التطبيق";
+
+"a11y.back" = "رجوع";
+"splash.quote" = "لأننا عندما نعتني بكل عائلة، نجعل كرة القدم تجربة للجميع.";
+
+"profile.title" = "ملفي الشخصي";
+"profile.sample.name" = "مستخدم تجريبي";
+"profile.sample.handle" = "@fifafamily_user";
+
+"profile.metrics.savedPlaces" = "الأماكن المحفوظة";
+"profile.metrics.recentRoutes" = "المسارات الحديثة";
+"profile.metrics.reports" = "التقارير";
+
+"profile.edit" = "تعديل";
+"profile.close" = "إغلاق";
+"profile.goHome" = "الذهاب إلى الرئيسية";
+
+"profile.tab.info" = "المعلومات";
+"profile.tab.family" = "العائلة";
+"profile.tab.favorites" = "المفضلة";
+
+"profile.info.email" = "البريد الإلكتروني";
+"profile.info.city" = "المدينة";
+"profile.info.language" = "اللغة";
+
+"profile.family.members" = "الأفراد";
+"profile.family.adults" = "بالغون";
+"profile.family.child" = "طفل";
+"profile.family.needs" = "الاحتياجات";
+"profile.family.sampleNeeds" = "طاولة تغيير/منحدرات";
+"profile.family.manage" = "إدارة الأفراد";
+
+"profile.favorites.places" = "الأماكن";
+"profile.favorites.routes" = "المسارات";
+"profile.favorites.viewAll" = "عرض الكل";
+"profile.favorites.samplePlaces" = "دورات مياه عائلية BBVA، حديقة لا باستورا";
+"profile.favorites.sampleRoutes" = "البوابة الجنوبية الشرقية → منطقة الرضاعة الشرقية";
+
+"profile.editSheet.title" = "تعديل الملف الشخصي";
+"profile.editSheet.subtitle" = "يمكنك هنا تعديل اسمك وصورتك واهتماماتك.";
+
+"language.name.es" = "الإسبانية";
+"language.name.en" = "الإنجليزية";
+"language.name.fr" = "الفرنسية";
+"language.name.pt" = "البرتغالية";
+"language.name.ar" = "العربية";
+
+"settings" = "الإعدادات";
+"settings.title" = "الإعدادات";
+"settings.option.home" = "الرئيسية";
+"settings.option.languages" = "اللغات";
+"settings.option.about" = "معلومات عنا";
+"settings.option.logout" = "تسجيل الخروج";
+"settings.logout.alert.title" = "هل ترغب في تسجيل الخروج؟";
+"settings.logout.alert.message" = "ستفقد التقدم الحالي وسيتعين عليك تسجيل الدخول مرة أخرى.";
+"settings.logout.confirm" = "تسجيل الخروج";
+"settings.logout.cancel" = "إلغاء";
+
+"svc.type.bathrooms" = "دورات مياه عائلية";
+"svc.type.access" = "الوصول والتنقّل";
+"svc.type.firstaid" = "الإسعافات الأولية";
+"svc.type.nursing" = "غرفة الرضاعة";
+
+"stadium.azteca.name" = "ملعب أزتيكا";
+"stadium.azteca.city" = "مدينة مكسيكو";
+"stadium.bbva.name" = "ملعب بي بي في إيه";
+"stadium.bbva.city" = "مونتيري، إن إل";
+
+"hours.openInAppleMaps" = "افتح في خرائط آبل";
+
+/* ========= التطبيق / العناوين ========= */
+app.title = "فيفا+";
+map.header = "فيفا فاميلي+\nالخدمات القريبة";
+
+/* ========= الملاعب ========= */
+stadium.azteca = "استاد أزتيكا";
+stadium.bbva = "استاد بي بي في إيه";
+
+/* ========= الفئات (الأزرار العلوية) ========= */
+category.banos = "دورات المياه";
+category.accesos = "المداخل";
+category.auxilios = "الإسعافات الأولية";
+category.lactancia = "غرفة الرضاعة";
+
+/* ========= أنواع الخدمات العامة ========= */
+svc.farmacia = "صيدلية";
+svc.supermercado = "سوبرماركت";
+svc.bebes = "الأطفال والحفاضات";
+svc.clinica = "عيادة";
+svc.estacionamiento = "موقف سيارات";
+svc.cafeteria = "مقهى";
+svc.parque = "حديقة";
+svc.cajero = "صراف آلي";
+
+/* ========= TipoServicio.titulo ========= */
+tipo.banos.title = "دورات مياه للعائلات";
+tipo.accesos.title = "مداخل ومسارات الوصول";
+tipo.auxilios.title = "خدمات الإسعاف الأولي";
+tipo.lactancia.title = "منطقة الرضاعة";
+
+/* ========= التعليمات أسفل المخطط ========= */
+instruction.none = "اختر خدمة للبدء";
+instruction.banos = "اضغط على أي دبوس أزرق لمعرفة التفاصيل";
+instruction.accesos = "اختر دبوساً لمعرفة تفاصيل المدخل";
+instruction.auxilios = "اضغط على دبوس أحمر لمعرفة خدمات الطوارئ";
+instruction.lactancia = "اختر دبوساً لمناطق الرضاعة";
+instruction.approx_note = "📍 المواقع المعروضة تقريبية";
+
+/* ========= إمكانية الوصول ========= */
+a11y.tap_for_details = "اضغط لعرض التفاصيل";
+a11y.open_croquis = "اضغط لفتح المخطط";
+a11y.filter.activate = "تفعيل الفلتر";
+a11y.filter.deactivate = "إلغاء الفلتر";
+
+/* ========= اللوحة الجانبية اليمنى ========= */
+sidepanel.title = "خدمات العائلات";
+
+/* ========= الشريط السفلي ========= */
+a11y.bottom.categories = "الفئات";
+a11y.bottom.center_map = "مركز الخريطة";
+a11y.bottom.stores = "المتاجر والخدمات";
+
+/* ========= شاشة تفاصيل الموقع ========= */
+detail.back = "رجوع";
+detail.section.location = "الموقع";
+detail.section.services = "الخدمات";
+detail.button.report = "إرسال تقرير";
+detail.button.report.hint = "افتح النموذج لكتابة تعليق";
+
+/* ========= شاشة تفاصيل الخدمة ========= */
+service.section.description = "الوصف";
+service.section.amenities = "المرافق";
+service.action.directions = "طريقة الوصول";
+
+/* ========= نموذج الإبلاغ ========= */
+report.user.label = "المستخدم";
+report.comment.label = "تعليقك";
+report.comment.placeholder = "اكتب تقريرك هنا…";
+report.publish = "نشر";
+report.publish.a11y.label = "نشر التعليق";
+report.publish.a11y.hint = "يرسل تقريرك إلى المنظمين";
+
+/* ========= الأخطاء ========= */
+error.url_invalid = "عنوان URL غير صالح.";
+error.submit_failed = "تعذر إرسال التقرير. حاول لاحقاً.";
+error.network_prefix = "خطأ في الشبكة: %@";
+
+/* ========= نص البريد الإلكتروني (الرسالة) ========= */
+report.mail.header = "تقرير مستخدم جديد";
+report.mail.field.location = "الموقع";
+report.mail.field.number = "الرقم";
+report.mail.field.type = "النوع";
+report.mail.field.user = "المستخدم";
+report.mail.field.date = "التاريخ";
+report.mail.field.comment = "التعليق:";
+
+/* ========= نصوص متنوعة ========= */
+hours.apple_maps = "عرض في خرائط Apple";
+common.close = "إغلاق";
+
+/* Branding / App */
+"brand.title"                      = "FIFA Family+";
+"app.title"                        = "FIFA Family+";
+"nearby.services"                  = "الخدمات القريبة";
+"nearby.familyServices"            = "خدمات العائلات";
+
+/* Stadium names & cities */
+"stadium.azteca.name"              = "إستاد أزتيكا";
+"stadium.azteca.city"              = "مكسيكو سيتي";
+"stadium.bbva.name"                = "إستاد بي بي في إيه";
+"stadium.bbva.city"                = "مونتيري";
+
+/* Categories (short labels) */
+"category.bathrooms.short"         = "دورات المياه";
+"category.access.short"            = "المداخل";
+"category.firstaid.short"          = "الإسعافات";
+"category.nursing.short"           = "الرضاعة";
+
+/* Service types (long titles) */
+"svc.type.bathrooms"               = "دورات مياه عائلية";
+"svc.type.access"                  = "الوصول والتنقل";
+"svc.type.firstaid"                = "الإسعافات الأولية";
+"svc.type.nursing"                 = "منطقة الرضاعة";
+
+/* Map / Instructions */
+"map.approximateLocationsNote"     = "📍 المواقع المعروضة تقريبية";
+"instructions.tapBluePin"          = "اضغط أي دبوس أزرق لعرض التفاصيل";
+"instructions.selectAccessPin"     = "اختر دبوسًا لعرض معلومات المدخل";
+"instructions.tapRedPin"           = "اضغط دبوسًا أحمر لعرض الخدمات الطبية";
+"instructions.selectNursingPin"    = "اختر دبوسًا لعرض مناطق الرضاعة";
+"instructions.selectServiceToStart"= "اختر خدمة للبدء";
+
+/* Bottom bar (pill) */
+"bottomBar.categories"             = "الفئات";
+"bottomBar.mapCenter"              = "مركز الخريطة";
+"bottomBar.shopsAndServices"       = "المتاجر والخدمات";
+
+/* Generic labels */
+"back"                             = "رجوع";
+"close"                            = "إغلاق";
+"category"                         = "الفئة";
+"identifier"                       = "المعرّف";
+"description"                      = "الوصف";
+"location"                         = "الموقع";
+"services"                         = "الخدمات";
+"sendReport"                       = "إرسال بلاغ";
+"amenities"                        = "المرافق";
+"getDirections"                    = "الاتجاهات";
+"hours.openInAppleMaps"            = "المشاهدة في خرائط Apple";
+
+/* Accessibility */
+"accessibility.hint.tapForDetails" = "اضغط لعرض التفاصيل";
+"accessibility.hint.openSketch"    = "اضغط لفتح مخطط الملعب";
+"accessibility.label.sendReportAbout" = "إرسال بلاغ حول %@";
+"accessibility.hint.openReportForm"= "يفتح النموذج لكتابة تعليق";
+
+/* Filters (buttons state) */
+"filters.activate"                 = "تفعيل الفلتر";
+"filters.deactivate"               = "تعطيل الفلتر";
+
+/* Lists */
+"list.itemHint"                    = "عنصر قائمة";
+"list.accessibilityListOf"         = "قائمة %@";
+
+/* Report sheet */
+"report.user"                      = "المستخدم";
+"report.yourComment"               = "تعليقك";
+"report.placeholder"               = "اكتب بلاغك هنا…";
+"report.publish"                   = "نشر";
+"report.accessibility.publishLabel"= "نشر التعليق";
+"report.accessibility.publishHint" = "يرسل بلاغك إلى المنظمين";
+"report.newHeader"                 = "بلاغ مستخدم جديد";
+"report.locationLabel"             = "الموقع";
+"report.numberLabel"               = "الرقم";
+"report.typeLabel"                 = "النوع";
+"report.userLabel"                 = "المستخدم";
+"report.dateLabel"                 = "التاريخ";
+"report.commentLabel"              = "التعليق:";
+"report.sendingFailed"             = "تعذر إرسال البلاغ. حاول مرة أخرى لاحقًا.";
+
+/* Errors */
+"error.invalidURL"                 = "رابط غير صالح.";
+"error.network"                    = "خطأ في الشبكة: %@";
+
+"profile.guest.warning" = "تتصفح كضيف. لا يمكنك التصويت أو حفظ المفضلات. سجّل الدخول باستخدام Google لتفعيل هذه الميزات.";
+"profile.guest.google" = "المتابعة باستخدام Google";
+
+"profile.signout.btn" = "تسجيل الخروج";
+"profile.signout.title" = "تم تسجيل الخروج";
+"profile.signout.msg" = "ستعود إلى الشاشة الرئيسية لاختيار طريقة الدخول.";
+
+"start.title.line1" = "مرحبًا";
+"start.title.line2" = "في ‏Family+";
+"start.guest" = "الدخول كضيف";
+"start.google" = "المتابعة باستخدام Google";

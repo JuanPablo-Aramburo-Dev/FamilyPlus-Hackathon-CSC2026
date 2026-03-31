@@ -1,0 +1,302 @@
+/* =========================
+   ABOUT / SOBRE NÓS
+   ========================= */
+about.title = "Sobre nós";
+about.mission.title = "Nossa Missão";
+about.mission.body = "Na Family+, acreditamos que o futebol deve ser uma experiência acessível, segura e agradável para todas as famílias. Nosso objetivo é conectar os torcedores a espaços familiares, serviços inclusivos e experiências únicas dentro e fora dos estádios da Copa do Mundo de 2026.";
+about.history.title = "Nossa História";
+about.history.body = "A Family+ nasceu como um projeto universitário no CETYS Universidad, impulsionado pela visão de criar um aplicativo que promova inclusão e conforto para as famílias em grandes eventos esportivos.";
+about.team.title = "Nossa Equipe";
+about.team.body = "Somos uma equipe multidisciplinar de estudantes apaixonados por tecnologia, design e esporte. Combinamos nossas habilidades para desenvolver uma ferramenta que aproxima as famílias por meio do futebol.";
+about.backToHome = "Voltar ao Início";
+
+/* =========================
+   ACESSIBILIDADE
+   ========================= */
+a11y.back = "Voltar";
+a11y.backToHome.hint = "Ir para a tela inicial.";
+
+/* =========================
+   SERVIÇOS (NOMES - BBVA)
+   ========================= */
+svc.bbva.parqueLaPastora.name = "Parque La Pastora";
+svc.bbva.zooLaPastora.name = "Zoológico La Pastora";
+svc.bbva.christusSur.name = "Hospital Christus Muguerza Sur";
+svc.bbva.clinicaEmergencias.name = "Clínica de Emergências La Pastora";
+svc.bbva.fahorro.name = "Farmácias del Ahorro La Pastora";
+svc.bbva.farmaciaGdl.name = "Farmácia Guadalajara Eloy Cavazos";
+svc.bbva.heb.name = "H-E-B Eloy Cavazos";
+svc.bbva.oxxo.name = "OXXO La Pastora";
+svc.bbva.cafeLocal.name = "Cafeteria Local La Pastora";
+svc.bbva.starbucks.name = "Starbucks Eloy Cavazos";
+svc.bbva.laspampas.name = "Restaurante Las Pampas BBQ";
+svc.bbva.parkingOficial.name = "Estacionamento Oficial BBVA";
+svc.bbva.parkingNorte.name = "Estacionamento La Pastora Norte";
+
+/* =========================
+   SERVIÇOS (DESCRIÇÕES)
+   ========================= */
+svc.bbva.parqueLaPastora.desc = "Área verde ampla junto ao estádio, com áreas de descanso e brinquedos.";
+svc.bbva.zooLaPastora.desc = "Espaço familiar com animais, áreas verdes e zonas de piquenique.";
+svc.bbva.christusSur.desc = "Centro médico com área pediátrica, emergência e farmácia interna.";
+svc.bbva.clinicaEmergencias.desc = "Clínica próxima ao estádio para primeiros socorros e emergências leves.";
+svc.bbva.fahorro.desc = "Medicamentos, fraldas e itens de higiene infantil.";
+svc.bbva.farmaciaGdl.desc = "Farmácia 24 horas com drive-thru e produtos para bebês.";
+svc.bbva.heb.desc = "Supermercado com seção para bebês, comida pronta e banheiros familiares.";
+svc.bbva.oxxo.desc = "Loja de conveniência com lanches, fraldas e bebidas.";
+svc.bbva.cafeLocal.desc = "Bebidas e lanches; possui trocador no banheiro e pequena área infantil.";
+svc.bbva.starbucks.desc = "Cafeteria moderna com área para famílias e banheiros limpos.";
+svc.bbva.laspampas.desc = "Restaurante familiar com cardápio infantil e área de recreação.";
+svc.bbva.parkingOficial.desc = "Estacionamento do estádio com vagas amplas, acessíveis e segurança privada.";
+svc.bbva.parkingNorte.desc = "Estacionamento público com acesso direto ao parque e áreas familiares.";
+
+/* =========================
+   AMENIDADES (REUTILIZÁVEIS)
+   ========================= */
+amenity.playground = "Área de recreação";
+amenity.kidsPlay = "Brinquedos infantis";
+amenity.shade = "Sombra";
+amenity.publicRestrooms = "Banheiros públicos";
+amenity.restrooms = "Banheiros";
+amenity.parking = "Estacionamento";
+amenity.emergency24h = "Emergência 24h";
+amenity.pediatrics = "Pediatria";
+amenity.pharmacy = "Farmácia";
+amenity.fastCare = "Atendimento rápido";
+amenity.attachedPharmacy = "Farmácia anexa";
+amenity.diapersAndFormula = "Fraldas e fórmulas";
+amenity.pediatricMeds = "Medicamentos pediátricos";
+amenity.driveThruPharmacy = "Farmácia drive-thru";
+amenity.babyProducts = "Produtos para bebê";
+amenity.service24h = "Serviço 24h";
+amenity.highChairs = "Cadeiras altas";
+amenity.foodArea = "Área de alimentação";
+amenity.babySection = "Seção para bebês";
+amenity.diapers = "Fraldas";
+amenity.snacks = "Lanches";
+amenity.atm = "Caixa eletrônico";
+amenity.wifi = "Wi-Fi";
+amenity.changingTable = "Trocador";
+amenity.acArea = "Área com ar-condicionado";
+amenity.kidsMenu = "Cardápio infantil";
+amenity.wideRestrooms = "Banheiros amplos";
+amenity.ramps = "Rampas";
+amenity.security = "Segurança";
+amenity.wideSpots = "Vagas amplas";
+
+/* =========================
+   HORÁRIOS (REUTILIZÁVEIS)
+   ========================= */
+hours.open24 = "Aberto 24 horas";
+hours.6_19 = "6:00 às 19:00";
+hours.9_17 = "9:00 às 17:00";
+hours.8_22 = "8:00 às 22:00";
+hours.8_23 = "8:00 às 23:00";
+hours.7_22 = "7:00 às 22:00";
+hours.7_21 = "7:00 às 21:00";
+hours.6_22 = "6:00 às 22:00";
+hours.12_23 = "12:00 às 23:00";
+hours.events = "Durante eventos";
+
+/* =========================
+   HOME / UI GERAL
+   ========================= */
+"family_title" = "Family+";
+"discover_routes" = "Descubra novas rotas";
+"no_one_left_behind" = "Que ninguém fique para trás, que todos cheguem.";
+"you_are_here" = "Você está aqui";
+"nearby_services" = "Serviços\nPróximos";
+"inclusive_tip" = "💡 Dica de inclusão";
+"inclusive_tip_message" = "Ao chegar, localize acessos acessíveis, salas de amamentação e pontos de primeiros socorros.";
+"view_nearby_services" = "Ver serviços próximos";
+"user" = "Usuário";
+"email_example" = "email@exemplo.com";
+"home" = "Início";
+"languages" = "Idiomas";
+"about_us" = "Sobre nós";
+"settings" = "Configurações";
+
+search_placeholder = "Pesquisar...";
+chip_access = "Acessos";
+chip_nursing = "Áreas de amamentação";
+chip_firstaid = "Primeiros socorros";
+
+languages.title = "Idiomas";
+languages.info = "Escolha o idioma padrão para o app, tutoriais e notificações";
+languages.section.site = "Idioma do app";
+
+language.es = "Espanhol";
+language.en = "Inglês";
+language.fr = "Francês";
+language.ar = "Árabe";
+language.pt = "Português";
+
+a11y.back = "Voltar";
+"languages.title" = "Idiomas";
+"languages.info" = "Escolha o idioma padrão para o app, tutoriais e notificações";
+"languages.section.siteLanguage" = "Idioma do app";
+"languages.row.hint" = "Toque duas vezes para mudar o idioma do app";
+
+"a11y.back" = "Voltar";
+"splash.quote" = "Ao cuidar de cada família, tornamos o futebol uma experiência para todos.";
+
+"profile.title" = "Meu Perfil";
+"profile.sample.name" = "Usuário Exemplo";
+"profile.sample.handle" = "@fifafamily_user";
+
+"profile.metrics.savedPlaces" = "Locais salvos";
+"profile.metrics.recentRoutes" = "Rotas recentes";
+"profile.metrics.reports" = "Relatos";
+
+"profile.edit" = "Editar";
+"profile.close" = "Fechar";
+"profile.goHome" = "Ir para Início";
+
+"profile.tab.info" = "Informações";
+"profile.tab.family" = "Família";
+"profile.tab.favorites" = "Favoritos";
+
+"profile.info.email" = "E-mail";
+"profile.info.city" = "Cidade";
+"profile.info.language" = "Idioma";
+
+"profile.family.members" = "Membros";
+"profile.family.adults" = "adultos";
+"profile.family.child" = "criança";
+"profile.family.needs" = "Necessidades";
+"profile.family.sampleNeeds" = "Trocador / rampas";
+"profile.family.manage" = "Gerenciar membros";
+
+"profile.favorites.places" = "Lugares";
+"profile.favorites.routes" = "Rotas";
+"profile.favorites.viewAll" = "Ver todos";
+"profile.favorites.samplePlaces" = "Banheiros familiares BBVA, Parque La Pastora";
+"profile.favorites.sampleRoutes" = "Portão SE → Zona de Amamentação Leste";
+
+"profile.editSheet.title" = "Editar Perfil";
+"profile.editSheet.subtitle" = "Aqui você pode editar seu nome, foto e interesses.";
+
+"language.name.es" = "Espanhol";
+"language.name.en" = "Inglês";
+"language.name.fr" = "Francês";
+"language.name.pt" = "Português";
+"language.name.ar" = "Árabe";
+
+"settings" = "Configurações";
+"settings.title" = "Configurações";
+"settings.option.home" = "Início";
+"settings.option.languages" = "Idiomas";
+"settings.option.about" = "Sobre nós";
+"settings.option.logout" = "Sair";
+"settings.logout.alert.title" = "Deseja sair da conta?";
+"settings.logout.alert.message" = "Você perderá o progresso atual e precisará entrar novamente.";
+"settings.logout.confirm" = "Sair";
+"settings.logout.cancel" = "Cancelar";
+
+"svc.type.bathrooms" = "Banheiros familiares";
+"svc.type.access" = "Acessos e mobilidade";
+"svc.type.firstaid" = "Primeiros socorros";
+"svc.type.nursing" = "Sala de amamentação";
+
+"stadium.azteca.name" = "Estádio Azteca";
+"stadium.azteca.city" = "Cidade do México";
+"stadium.bbva.name" = "Estádio BBVA";
+"stadium.bbva.city" = "Monterrei, NL";
+
+"hours.openInAppleMaps" = "Abrir no Apple Maps";
+
+/* Branding / App */
+"brand.title"                      = "Family+";
+"app.title"                        = "Family+";
+"nearby.services"                  = "Serviços próximos";
+"nearby.familyServices"            = "Serviços familiares";
+
+/* Stadium names & cities */
+"stadium.azteca.name"              = "Estádio Azteca";
+"stadium.azteca.city"              = "Cidade do México";
+"stadium.bbva.name"                = "Estádio BBVA";
+"stadium.bbva.city"                = "Monterrey";
+
+/* Categories (short labels) */
+"category.bathrooms.short"         = "Banheiros";
+"category.access.short"            = "Acessos";
+"category.firstaid.short"          = "Primeiros socorros";
+"category.nursing.short"           = "Amamentação";
+
+/* Service types (long titles) */
+"svc.type.bathrooms"               = "Banheiros familiares";
+"svc.type.access"                  = "Acessos e mobilidade";
+"svc.type.firstaid"                = "Primeiros socorros";
+"svc.type.nursing"                 = "Área de amamentação";
+
+/* Map / Instructions */
+"map.approximateLocationsNote"     = "📍 Os locais mostrados são aproximados";
+"instructions.tapBluePin"          = "Toque em qualquer pino azul para ver os detalhes";
+"instructions.selectAccessPin"     = "Selecione um pino para ver informações de acesso";
+"instructions.tapRedPin"           = "Toque em um pino vermelho para ver os serviços médicos";
+"instructions.selectNursingPin"    = "Selecione um pino para ver áreas de amamentação";
+"instructions.selectServiceToStart"= "Selecione um serviço para começar";
+
+/* Bottom bar (pill) */
+"bottomBar.categories"             = "Categorias";
+"bottomBar.mapCenter"              = "Centro do mapa";
+"bottomBar.shopsAndServices"       = "Lojas e serviços";
+
+/* Generic labels */
+"back"                             = "Voltar";
+"close"                            = "Fechar";
+"category"                         = "Categoria";
+"identifier"                       = "Identificador";
+"description"                      = "Descrição";
+"location"                         = "Localização";
+"services"                         = "Serviços";
+"sendReport"                       = "Enviar relatório";
+"amenities"                        = "Comodidades";
+"getDirections"                    = "Como chegar";
+"hours.openInAppleMaps"            = "Ver no Apple Maps";
+
+/* Accessibility */
+"accessibility.hint.tapForDetails" = "Toque para ver detalhes";
+"accessibility.hint.openSketch"    = "Toque para abrir o mapa do estádio";
+"accessibility.label.sendReportAbout" = "Enviar relatório sobre %@";
+"accessibility.hint.openReportForm"= "Abre o formulário para escrever um comentário";
+
+/* Filters (buttons state) */
+"filters.activate"                 = "Ativar filtro";
+"filters.deactivate"               = "Desativar filtro";
+
+/* Lists */
+"list.itemHint"                    = "Item da lista";
+"list.accessibilityListOf"         = "Lista de %@";
+
+/* Report sheet */
+"report.user"                      = "Usuário";
+"report.yourComment"               = "Seu comentário";
+"report.placeholder"               = "Escreva seu relatório aqui…";
+"report.publish"                   = "Publicar";
+"report.accessibility.publishLabel"= "Publicar comentário";
+"report.accessibility.publishHint" = "Envia seu relatório aos organizadores";
+"report.newHeader"                 = "NOVO RELATÓRIO DO USUÁRIO";
+"report.locationLabel"             = "Localização";
+"report.numberLabel"               = "Número";
+"report.typeLabel"                 = "Tipo";
+"report.userLabel"                 = "Usuário";
+"report.dateLabel"                 = "Data";
+"report.commentLabel"              = "COMENTÁRIO:";
+"report.sendingFailed"             = "Não foi possível enviar o relatório. Tente novamente mais tarde.";
+
+/* Errors */
+"error.invalidURL"                 = "URL inválido.";
+"error.network"                    = "Erro de rede: %@";
+
+"profile.guest.warning" = "Você está navegando como convidado. Você não poderá votar nem salvar favoritos. Faça login com o Google para habilitar esses recursos.";
+"profile.guest.google" = "Continuar com o Google";
+
+"profile.signout.btn" = "Sair";
+"profile.signout.title" = "Sessão encerrada";
+"profile.signout.msg" = "Você voltará à tela inicial para escolher como entrar.";
+
+"start.title.line1" = "Bem-vindo";
+"start.title.line2" = "ao Family+";
+"start.guest" = "Entrar como Convidado";
+"start.google" = "Continuar com o Google";

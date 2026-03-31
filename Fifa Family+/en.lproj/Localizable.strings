@@ -1,0 +1,281 @@
+about.title = "About Us";
+about.mission.title = "Our Mission";
+about.mission.body = "At Family+, we believe football should be an accessible, safe, and enjoyable experience for all families. Our goal is to connect fans with family-friendly areas, inclusive services, and unique experiences inside and outside the 2026 World Cup stadiums.";
+about.history.title = "Our Story";
+about.history.body = "Family+ began as a university project at CETYS Universidad, driven by the vision of creating an app that promotes inclusion and comfort for families at major sporting events.";
+about.team.title = "Our Team";
+about.team.body = "We are a multidisciplinary team of students passionate about technology, design, and sports. We combine our skills to build a tool that brings families together through football.";
+about.backToHome = "Back to Home";
+
+a11y.back = "Back";
+a11y.backToHome.hint = "Navigate to the home screen.";
+
+svc.bbva.parqueLaPastora.name = "La Pastora Park";
+svc.bbva.zooLaPastora.name = "La Pastora Zoo";
+svc.bbva.christusSur.name = "Christus Muguerza South Hospital";
+svc.bbva.clinicaEmergencias.name = "La Pastora Emergency Clinic";
+svc.bbva.fahorro.name = "Farmacias del Ahorro La Pastora";
+svc.bbva.farmaciaGdl.name = "Guadalajara Pharmacy Eloy Cavazos";
+svc.bbva.heb.name = "H-E-B Eloy Cavazos";
+svc.bbva.oxxo.name = "OXXO La Pastora";
+svc.bbva.cafeLocal.name = "Local Café La Pastora";
+svc.bbva.starbucks.name = "Starbucks Eloy Cavazos";
+svc.bbva.laspampas.name = "Las Pampas BBQ Restaurant";
+svc.bbva.parkingOficial.name = "Official BBVA Parking";
+svc.bbva.parkingNorte.name = "La Pastora North Parking";
+
+svc.bbva.parqueLaPastora.desc = "Large green area next to the stadium, with resting zones and playgrounds.";
+svc.bbva.zooLaPastora.desc = "Family space with animals, green areas, and picnic spots.";
+svc.bbva.christusSur.desc = "Medical center with pediatric area, emergency room, and in-house pharmacy.";
+svc.bbva.clinicaEmergencias.desc = "Clinic near the stadium for first aid and minor emergencies.";
+svc.bbva.fahorro.desc = "Medicines, diapers, and child hygiene products.";
+svc.bbva.farmaciaGdl.desc = "24-hour pharmacy with drive-thru and baby products.";
+svc.bbva.heb.desc = "Supermarket with baby section, prepared food, and family restrooms.";
+svc.bbva.oxxo.desc = "Convenience store with snacks, diapers, and drinks.";
+svc.bbva.cafeLocal.desc = "Drinks and snacks; features a changing table and small kids area.";
+svc.bbva.starbucks.desc = "Modern coffee shop with family area and clean restrooms.";
+svc.bbva.laspampas.desc = "Family restaurant with kids’ menu and play area.";
+svc.bbva.parkingOficial.desc = "Stadium parking with wide accessible spaces and private security.";
+svc.bbva.parkingNorte.desc = "Public parking with direct access to the park and family areas.";
+
+amenity.playground = "Playground";
+amenity.kidsPlay = "Kids’ play area";
+amenity.shade = "Shade";
+amenity.publicRestrooms = "Public restrooms";
+amenity.restrooms = "Restrooms";
+amenity.parking = "Parking";
+amenity.emergency24h = "24h emergency";
+amenity.pediatrics = "Pediatrics";
+amenity.pharmacy = "Pharmacy";
+amenity.fastCare = "Fast care";
+amenity.attachedPharmacy = "Attached pharmacy";
+amenity.diapersAndFormula = "Diapers & formula";
+amenity.pediatricMeds = "Pediatric meds";
+amenity.driveThruPharmacy = "Drive-thru pharmacy";
+amenity.babyProducts = "Baby products";
+amenity.service24h = "24h service";
+amenity.highChairs = "High chairs";
+amenity.foodArea = "Food area";
+amenity.babySection = "Baby section";
+amenity.diapers = "Diapers";
+amenity.snacks = "Snacks";
+amenity.atm = "ATM";
+amenity.wifi = "Wi-Fi";
+amenity.changingTable = "Changing table";
+amenity.acArea = "Air-conditioned area";
+amenity.kidsMenu = "Kids’ menu";
+amenity.wideRestrooms = "Wide restrooms";
+amenity.ramps = "Ramps";
+amenity.security = "Security";
+amenity.wideSpots = "Wide parking spots";
+
+hours.open24 = "Open 24 hours";
+hours.6_19 = "6:00–19:00";
+hours.9_17 = "9:00–17:00";
+hours.8_22 = "8:00–22:00";
+hours.8_23 = "8:00–23:00";
+hours.7_22 = "7:00–22:00";
+hours.7_21 = "7:00–21:00";
+hours.6_22 = "6:00–22:00";
+hours.12_23 = "12:00–23:00";
+hours.events = "During events";
+
+"family_title" = "Family+";
+"discover_routes" = "Discover new routes";
+"no_one_left_behind" = "Leave no one behind, let everyone arrive.";
+"you_are_here" = "You are here";
+"nearby_services" = "Nearby\nServices";
+"inclusive_tip" = "💡 Inclusive tip";
+"inclusive_tip_message" = "When you arrive, locate accessible entrances, nursing areas, and first aid points.";
+"view_nearby_services" = "View nearby services";
+"user" = "User";
+"email_example" = "email@example.com";
+"home" = "Home";
+"languages" = "Languages";
+"about_us" = "About us";
+"settings" = "Settings";
+
+search_placeholder = "Search...";
+chip_access = "Accesses";
+chip_nursing = "Nursing areas";
+chip_firstaid = "First aid";
+
+languages.title = "Languages";
+languages.info = "Choose the default language for the app, tutorials, and notifications";
+languages.section.site = "App language";
+
+language.es = "Spanish";
+language.en = "English";
+language.fr = "French";
+language.ar = "Arabic";
+language.pt = "Portuguese";
+
+a11y.back = "Back";
+"languages.title" = "Languages";
+"languages.info" = "Choose the default language for the app, tutorials, and notifications";
+"languages.section.siteLanguage" = "App language";
+"languages.row.hint" = "Double-tap to change the app language";
+
+"a11y.back" = "Back";
+"splash.quote" = "By caring for every family, we make football a truly inclusive experience for everyone.";
+
+"profile.title" = "My Profile";
+"profile.sample.name" = "Sample User";
+"profile.sample.handle" = "@fifafamily_user";
+
+"profile.metrics.savedPlaces" = "Saved places";
+"profile.metrics.recentRoutes" = "Recent routes";
+"profile.metrics.reports" = "Reports";
+
+"profile.edit" = "Edit";
+"profile.close" = "Close";
+"profile.goHome" = "Go to Home";
+
+"profile.tab.info" = "Info";
+"profile.tab.family" = "Family";
+"profile.tab.favorites" = "Favorites";
+
+"profile.info.email" = "Email";
+"profile.info.city" = "City";
+"profile.info.language" = "Language";
+
+"profile.family.members" = "Members";
+"profile.family.adults" = "adults";
+"profile.family.child" = "child";
+"profile.family.needs" = "Needs";
+"profile.family.sampleNeeds" = "Changing table / ramps";
+"profile.family.manage" = "Manage members";
+
+"profile.favorites.places" = "Places";
+"profile.favorites.routes" = "Routes";
+"profile.favorites.viewAll" = "View all";
+"profile.favorites.samplePlaces" = "Family restrooms BBVA, La Pastora Park";
+"profile.favorites.sampleRoutes" = "South-East Side Gate → Nursing Area East";
+
+"profile.editSheet.title" = "Edit Profile";
+"profile.editSheet.subtitle" = "Here you can edit your name, photo, and interests.";
+
+"language.name.es" = "Spanish";
+"language.name.en" = "English";
+"language.name.fr" = "French";
+"language.name.pt" = "Portuguese";
+"language.name.ar" = "Arabic";
+
+"settings" = "Settings";
+"settings.title" = "Settings";
+"settings.option.home" = "Home";
+"settings.option.languages" = "Languages";
+"settings.option.about" = "About Us";
+"settings.option.logout" = "Log Out";
+"settings.logout.alert.title" = "Do you want to log out?";
+"settings.logout.alert.message" = "You will lose your current progress and need to sign in again.";
+"settings.logout.confirm" = "Log Out";
+"settings.logout.cancel" = "Cancel";
+
+"svc.type.bathrooms" = "Family Restrooms";
+"svc.type.access" = "Access & Mobility";
+"svc.type.firstaid" = "First Aid";
+"svc.type.nursing" = "Nursing Room";
+
+"stadium.azteca.name" = "Azteca Stadium";
+"stadium.azteca.city" = "Mexico City";
+"stadium.bbva.name" = "BBVA Stadium";
+"stadium.bbva.city" = "Monterrey, NL";
+
+"hours.openInAppleMaps" = "Open in Apple Maps";
+
+/* Branding / App */
+"brand.title"                      = "Family+";
+"app.title"                        = "Family+";
+"nearby.services"                  = "Nearby Services";
+"nearby.familyServices"            = "Family Services";
+
+/* Stadium names & cities */
+"stadium.azteca.name"              = "Estadio Azteca";
+"stadium.azteca.city"              = "Mexico City";
+"stadium.bbva.name"                = "Estadio BBVA";
+"stadium.bbva.city"                = "Monterrey, NL";
+
+/* Categories (short labels) */
+"category.bathrooms.short"         = "Bathrooms";
+"category.access.short"            = "Access";
+"category.firstaid.short"          = "First Aid";
+"category.nursing.short"           = "Nursing";
+
+/* Service types (long titles) */
+"svc.type.bathrooms"               = "Family Bathrooms";
+"svc.type.access"                  = "Access & Mobility";
+"svc.type.firstaid"                = "First Aid";
+"svc.type.nursing"                 = "Nursing Area";
+
+/* Map / Instructions */
+"map.approximateLocationsNote"     = "📍 Locations shown are approximate";
+"instructions.tapBluePin"          = "Tap any blue pin to view details";
+"instructions.selectAccessPin"     = "Select a pin to view access information";
+"instructions.tapRedPin"           = "Tap a red pin to view medical services";
+"instructions.selectNursingPin"    = "Select a pin to view nursing areas";
+"instructions.selectServiceToStart"= "Select a service to get started";
+
+/* Bottom bar (pill) */
+"bottomBar.categories"             = "Categories";
+"bottomBar.mapCenter"              = "Map center";
+"bottomBar.shopsAndServices"       = "Shops & services";
+
+/* Generic labels */
+"back"                             = "Back";
+"close"                            = "Close";
+"category"                         = "Category";
+"identifier"                       = "Identifier";
+"description"                      = "Description";
+"location"                         = "Location";
+"services"                         = "Services";
+"sendReport"                       = "Send Report";
+"amenities"                        = "Amenities";
+"getDirections"                    = "Directions";
+"hours.openInAppleMaps"            = "See in Apple Maps";
+
+/* Accessibility */
+"accessibility.hint.tapForDetails" = "Tap to see details";
+"accessibility.hint.openSketch"    = "Tap to open the stadium sketch";
+"accessibility.label.sendReportAbout" = "Send report about %@";
+"accessibility.hint.openReportForm"= "Opens the form to write a comment";
+
+/* Filters (buttons state) */
+"filters.activate"                 = "Activate filter";
+"filters.deactivate"               = "Deactivate filter";
+
+/* Lists */
+"list.itemHint"                    = "List item";
+"list.accessibilityListOf"         = "List of %@";
+
+/* Report sheet */
+"report.user"                      = "User";
+"report.yourComment"               = "Your comment";
+"report.placeholder"               = "Write your report here…";
+"report.publish"                   = "Publish";
+"report.accessibility.publishLabel"= "Publish comment";
+"report.accessibility.publishHint" = "Sends your report to the organizers";
+"report.newHeader"                 = "NEW USER REPORT";
+"report.locationLabel"             = "Location";
+"report.numberLabel"               = "Number";
+"report.typeLabel"                 = "Type";
+"report.userLabel"                 = "User";
+"report.dateLabel"                 = "Date";
+"report.commentLabel"              = "COMMENT:";
+"report.sendingFailed"             = "Could not send the report. Please try again later.";
+
+/* Errors */
+"error.invalidURL"                 = "Invalid URL.";
+"error.network"                    = "Network error: %@";
+
+"profile.guest.warning" = "You are browsing as a guest. You can't vote or save favorites. Sign in with Google to enable these features.";
+"profile.guest.google" = "Continue with Google";
+
+"profile.signout.btn" = "Sign out";
+"profile.signout.title" = "Signed out";
+"profile.signout.msg" = "You'll return to the start screen to choose how to enter.";
+
+"start.title.line1" = "Welcome";
+"start.title.line2" = "to Family+";
+"start.guest" = "Continue as Guest";
+"start.google" = "Continue with Google";

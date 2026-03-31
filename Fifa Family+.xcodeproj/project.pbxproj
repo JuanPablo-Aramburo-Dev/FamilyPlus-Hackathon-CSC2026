@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586C8ADE2EBD9AFC0020B307 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 586C8ADD2EBD9AFC0020B307 /* GoogleSignIn */; };
+		586C8AE02EBD9AFC0020B307 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 586C8ADF2EBD9AFC0020B307 /* GoogleSignInSwift */; };
+		589378C02EB9526C00C3B76A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 589378BF2EB9526C00C3B76A /* FirebaseAuth */; };
+		589378C22EB9526C00C3B76A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 589378C12EB9526C00C3B76A /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58A44DFD2EA34C8C00B109A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58A44DE42EA34C8B00B109A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58A44DEB2EA34C8B00B109A0;
+			remoteInfo = "Fifa Family+";
+		};
+		58A44E072EA34C8C00B109A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58A44DE42EA34C8B00B109A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58A44DEB2EA34C8B00B109A0;
+			remoteInfo = "Fifa Family+";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58A44DEC2EA34C8B00B109A0 /* Fifa Family+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fifa Family+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A44DFC2EA34C8C00B109A0 /* Fifa Family+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fifa Family+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A44E062EA34C8C00B109A0 /* Fifa Family+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fifa Family+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		58A44DEE2EA34C8B00B109A0 /* Fifa Family+ */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fifa Family+";
+			sourceTree = "<group>";
+		};
+		58A44DFF2EA34C8C00B109A0 /* Fifa Family+Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fifa Family+Tests";
+			sourceTree = "<group>";
+		};
+		58A44E092EA34C8C00B109A0 /* Fifa Family+UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fifa Family+UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58A44DE92EA34C8B00B109A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589378C02EB9526C00C3B76A /* FirebaseAuth in Frameworks */,
+				589378C22EB9526C00C3B76A /* FirebaseFirestore in Frameworks */,
+				586C8ADE2EBD9AFC0020B307 /* GoogleSignIn in Frameworks */,
+				586C8AE02EBD9AFC0020B307 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A44DF92EA34C8C00B109A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A44E032EA34C8C00B109A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58A44DE32EA34C8B00B109A0 = {
+			isa = PBXGroup;
+			children = (
+				58A44DEE2EA34C8B00B109A0 /* Fifa Family+ */,
+				58A44DFF2EA34C8C00B109A0 /* Fifa Family+Tests */,
+				58A44E092EA34C8C00B109A0 /* Fifa Family+UITests */,
+				58A44DED2EA34C8B00B109A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58A44DED2EA34C8B00B109A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58A44DEC2EA34C8B00B109A0 /* Fifa Family+.app */,
+				58A44DFC2EA34C8C00B109A0 /* Fifa Family+Tests.xctest */,
+				58A44E062EA34C8C00B109A0 /* Fifa Family+UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58A44DEB2EA34C8B00B109A0 /* Fifa Family+ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A44E102EA34C8C00B109A0 /* Build configuration list for PBXNativeTarget "Fifa Family+" */;
+			buildPhases = (
+				58A44DE82EA34C8B00B109A0 /* Sources */,
+				58A44DE92EA34C8B00B109A0 /* Frameworks */,
+				58A44DEA2EA34C8B00B109A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				58A44DEE2EA34C8B00B109A0 /* Fifa Family+ */,
+			);
+			name = "Fifa Family+";
+			packageProductDependencies = (
+				589378BF2EB9526C00C3B76A /* FirebaseAuth */,
+				589378C12EB9526C00C3B76A /* FirebaseFirestore */,
+				586C8ADD2EBD9AFC0020B307 /* GoogleSignIn */,
+				586C8ADF2EBD9AFC0020B307 /* GoogleSignInSwift */,
+			);
+			productName = "Fifa Family+";
+			productReference = 58A44DEC2EA34C8B00B109A0 /* Fifa Family+.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58A44DFB2EA34C8C00B109A0 /* Fifa Family+Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A44E132EA34C8C00B109A0 /* Build configuration list for PBXNativeTarget "Fifa Family+Tests" */;
+			buildPhases = (
+				58A44DF82EA34C8C00B109A0 /* Sources */,
+				58A44DF92EA34C8C00B109A0 /* Frameworks */,
+				58A44DFA2EA34C8C00B109A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58A44DFE2EA34C8C00B109A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				58A44DFF2EA34C8C00B109A0 /* Fifa Family+Tests */,
+			);
+			name = "Fifa Family+Tests";
+			packageProductDependencies = (
+			);
+			productName = "Fifa Family+Tests";
+			productReference = 58A44DFC2EA34C8C00B109A0 /* Fifa Family+Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58A44E052EA34C8C00B109A0 /* Fifa Family+UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A44E162EA34C8C00B109A0 /* Build configuration list for PBXNativeTarget "Fifa Family+UITests" */;
+			buildPhases = (
+				58A44E022EA34C8C00B109A0 /* Sources */,
+				58A44E032EA34C8C00B109A0 /* Frameworks */,
+				58A44E042EA34C8C00B109A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58A44E082EA34C8C00B109A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				58A44E092EA34C8C00B109A0 /* Fifa Family+UITests */,
+			);
+			name = "Fifa Family+UITests";
+			packageProductDependencies = (
+			);
+			productName = "Fifa Family+UITests";
+			productReference = 58A44E062EA34C8C00B109A0 /* Fifa Family+UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58A44DE42EA34C8B00B109A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					58A44DEB2EA34C8B00B109A0 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+					58A44DFB2EA34C8C00B109A0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 58A44DEB2EA34C8B00B109A0;
+					};
+					58A44E052EA34C8C00B109A0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 58A44DEB2EA34C8B00B109A0;
+					};
+				};
+			};
+			buildConfigurationList = 58A44DE72EA34C8B00B109A0 /* Build configuration list for PBXProject "Fifa Family+" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				fr,
+				ar,
+				pt,
+			);
+			mainGroup = 58A44DE32EA34C8B00B109A0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				589378BE2EB9526C00C3B76A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				586C8ADC2EBD9AFC0020B307 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 58A44DED2EA34C8B00B109A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58A44DEB2EA34C8B00B109A0 /* Fifa Family+ */,
+				58A44DFB2EA34C8C00B109A0 /* Fifa Family+Tests */,
+				58A44E052EA34C8C00B109A0 /* Fifa Family+UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58A44DEA2EA34C8B00B109A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A44DFA2EA34C8C00B109A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A44E042EA34C8C00B109A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58A44DE82EA34C8B00B109A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A44DF82EA34C8C00B109A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A44E022EA34C8C00B109A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58A44DFE2EA34C8C00B109A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58A44DEB2EA34C8B00B109A0 /* Fifa Family+ */;
+			targetProxy = 58A44DFD2EA34C8C00B109A0 /* PBXContainerItemProxy */;
+		};
+		58A44E082EA34C8C00B109A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58A44DEB2EA34C8B00B109A0 /* Fifa Family+ */;
+			targetProxy = 58A44E072EA34C8C00B109A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58A44E0E2EA34C8C00B109A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58A44E0F2EA34C8C00B109A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58A44E112EA34C8C00B109A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fifa Family+/Preview Content\"";
+				DEVELOPMENT_TEAM = 886Y72VQ3N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fifa-Family--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpar.familyplus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Fifa Family+/Fifa Family+-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58A44E122EA34C8C00B109A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fifa Family+/Preview Content\"";
+				DEVELOPMENT_TEAM = 886Y72VQ3N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fifa-Family--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpar.familyplus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Fifa Family+/Fifa Family+-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58A44E142EA34C8C00B109A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cr7.Fifa-Family-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fifa Family+.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fifa Family+";
+			};
+			name = Debug;
+		};
+		58A44E152EA34C8C00B109A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cr7.Fifa-Family-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fifa Family+.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fifa Family+";
+			};
+			name = Release;
+		};
+		58A44E172EA34C8C00B109A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cr7.Fifa-Family-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fifa Family+";
+			};
+			name = Debug;
+		};
+		58A44E182EA34C8C00B109A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cr7.Fifa-Family-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fifa Family+";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58A44DE72EA34C8B00B109A0 /* Build configuration list for PBXProject "Fifa Family+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A44E0E2EA34C8C00B109A0 /* Debug */,
+				58A44E0F2EA34C8C00B109A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58A44E102EA34C8C00B109A0 /* Build configuration list for PBXNativeTarget "Fifa Family+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A44E112EA34C8C00B109A0 /* Debug */,
+				58A44E122EA34C8C00B109A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58A44E132EA34C8C00B109A0 /* Build configuration list for PBXNativeTarget "Fifa Family+Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A44E142EA34C8C00B109A0 /* Debug */,
+				58A44E152EA34C8C00B109A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58A44E162EA34C8C00B109A0 /* Build configuration list for PBXNativeTarget "Fifa Family+UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A44E172EA34C8C00B109A0 /* Debug */,
+				58A44E182EA34C8C00B109A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		586C8ADC2EBD9AFC0020B307 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		589378BE2EB9526C00C3B76A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		586C8ADD2EBD9AFC0020B307 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 586C8ADC2EBD9AFC0020B307 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		586C8ADF2EBD9AFC0020B307 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 586C8ADC2EBD9AFC0020B307 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		589378BF2EB9526C00C3B76A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 589378BE2EB9526C00C3B76A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		589378C12EB9526C00C3B76A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 589378BE2EB9526C00C3B76A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 58A44DE42EA34C8B00B109A0 /* Project object */;
+}
